@@ -79,3 +79,47 @@ nav{
     
 }
 /*end banner style */
+
+/* start speaker style */
+.speaker-perent{
+    margin-top: 80px;
+    padding-top: 80px;
+    text-align: center;
+}
+.speaker-perent h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+    margin-bottom: 56px;
+}
+.speaker-perent-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+.speaker-perent-card{
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+     overflow: hidden;
+}
+.speaker-perent-card-bottom{
+    text-align: start;
+    padding: 24px 0 24px 24px;
+}
+.category{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2563EB;
+    margin-bottom: 8px;
+}
+.speaker-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+.speaker-title{
+    font-size: 14px;
+    color: #575757;
+}
+/* end speaker style */
