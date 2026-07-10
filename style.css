@@ -20,6 +20,20 @@
     cursor: pointer;
 }
 
+.outline-btn{
+    color: #2563EB;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    
+    border-radius: 10px;
+    padding: 12px 42px;
+    border: 1px solid #2563EB;
+    cursor: pointer;
+}
+.bg-color{
+    background: #0D1B2A;
+}
 
 /* common syle end */
 
@@ -122,3 +136,96 @@ nav{
     color: #575757;
 }
 /* end speaker style */
+
+/* start price style */
+.price-parent{
+    margin-top: 169px;
+    text-align: center;
+   
+}
+.price-parent h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.price-parent p{
+    font-size: 16px;
+    color: #575757;
+    margin-top: 12px;
+}
+.price-parent-card{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px 80px 0 80px;
+  
+}
+.price-parent-card-container{
+    text-align: start;
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    border-radius: 12px;
+    width: 31%;
+    
+}
+.plan-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    margin-top: 0 !important;
+
+}
+.price{
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    
+}
+.price-txt{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb79;
+    padding-bottom: 20px;
+}
+.price-parent-card-container ul {
+    padding-left: 20px;
+}
+.price-parent-card-container ul li{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+
+}
+
+.price-parent-card-container ul li::marker{
+    color: #2563EB;
+}
+.price-parent-card-container button{
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+}
+.third-plan-card-botton{
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
+}
+.price-parent-card-container-pro{
+    border: 1px solid #0D1B2A;
+}
+.price-parent-card-container-pro .price{
+    color: #FFFFFF;
+}
+.price-parent-card-container-pro .plan-name{
+    color: #93C5FD;
+}
+.price-parent-card-container-pro ul li{
+    color: rgba(255, 255, 255,0.8);
+}
+.price-parent-card-container-pro .price-txt{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* <!-- end price style --> */
