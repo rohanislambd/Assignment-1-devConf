@@ -260,6 +260,9 @@ nav{
     border: none;
     background: #f2f3f8;
 }
+.agendaschedule-card-parent{
+    margin-bottom: 30px;
+}
 .agendaschedule-card{
     display: flex;
     align-items: center;
@@ -311,6 +314,9 @@ nav{
     color: #993c1d;
     background: #fdeee6;
 }
+
+
+
 /* end agendaschedule style */ 
 
 
