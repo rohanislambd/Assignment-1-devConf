@@ -228,10 +228,90 @@ nav{
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* <!-- end price style --> */
+/* end price style  */
 
 
+/* start agendaschedule style */
+.agendaschedule-parent{
+    margin-top: 120px;
+    text-align: center;
+    padding: 0 90px;
+}
+.agendaschedule-parent h2{
+ font-size: 35px;
+ font-weight: 800;
+ margin-bottom: 8px;
 
+}
+.agendaschedule-parent p{
+    color: rgb(91, 91, 102);
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+.agenda-schedule-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+.agenda-schedule-date-btn{
+    color: #0d0d12;
+    border: none;
+    background: #f2f3f8;
+}
+.agendaschedule-card{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    border: 1px solid #e7e7ee;
+    gap: 80px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.agendaschedule-card-time{
+    font-size: 13px;
+    font-weight: 700;
+    color: #0d0d12;
+    margin-bottom: 0;
+}
+.agendaschedule-card p{
+    margin-bottom: 0px;
+}
+.agenda-txt span{
+    color: #2f4bf0;
+    font-size: 11px;
+    padding: 3px 9px;
+    border-radius: 5px;
+    background: #e8ecff;
+    border-radius: 6px;
+}
+.agenda-txt h3{
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0d0d12;
+}
+.agenda-txt p{
+    font-size: 13px;
+    color: #5b5b66;
+    margin-top: 2px;
+}
+
+#event-text-design-workshop{
+    color: #0f6e56;
+    background: #e6f4ee;
+}
+#event-text-design-networking{
+    color: #5b5b66;
+    background: #f2f3f8;
+}
+#event-text-design-talk{
+    color: #993c1d;
+    background: #fdeee6;
+}
+/* end agendaschedule style */ 
 
 
 
@@ -275,4 +355,7 @@ footer{
     padding: 20px 0;
 }
 
-/* start footer style */
+
+
+/* end footer style */
+
