@@ -4,5 +4,5 @@ Act as a senior UI/UX designer. Analyze this developer conference landing page s
 
 Ans : Agenda / Schedule
 
-2nd promt --->
+2nd prompt --->
 Act as a UI/UX designer. I will provide my landing page UI image. Create a matching image for the "Agenda / Schedule" section that fits in this position. Keep the same visual style, color palette, illustration style, lighting, perspective, and overall design consistency so it looks like an original part of the landing page.
